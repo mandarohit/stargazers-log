@@ -1,16 +1,17 @@
 [
+  
   {
-    "name": "SpaceX Landing Prediction",
-    "description": "Prediction of Successful Rocket Landings by Spacex",
-    "url": "https://github.com/mandarohit/SpaceX-Falcon9-Landing-Prediction",
+    "name": "Rohit-Manda",
+    "description": "Undergrad AI & Data Science portfolio and profile overview.",
+    "url": "https://github.com/mandarohit/Rohit-Manda",
     "language": "Markdown",
     "stargazers_count": 0,
     "forks_count": 0
   },
   {
-    "name": "Langauge detection and Translation",
-    "description": "Predicting the Language of the text given and translating the text to required language",
-    "url": "https://github.com/mandarohit/Language-detection-and-translation",
+    "name": "dNE",
+    "description": "A project repository exploring software experimentation and applied engineering.",
+    "url": "https://github.com/mandarohit/dNE",
     "language": "JavaScript",
     "stargazers_count": 0,
     "forks_count": 0
