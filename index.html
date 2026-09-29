@@ -2,13 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Stargazers log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Manda | GitHub Projects</title>
+    <meta
+      name="description"
+      content="Portfolio-style page showing the repositories and projects on Rohit Manda's GitHub profile."
+    >
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
-    <ul id="starred"></ul>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="profile-header">
+          <img id="avatar" alt="GitHub profile avatar" class="avatar" />
+          <div>
+            <p class="eyebrow">GitHub profile</p>
+            <h1 id="name">Loading profile...</h1>
+            <p id="bio" class="bio"></p>
+          </div>
+        </div>
+        <a id="profile-link" class="button" target="_blank" rel="noreferrer">View GitHub</a>
+      </header>
+
+      <main>
+        <section id="stats" class="stats" aria-label="GitHub statistics"></section>
+
+        <section class="projects-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Portfolio</p>
+              <h2>Repositories & Projects</h2>
+            </div>
+            <p class="section-subtitle">Public work and active projects</p>
+          </div>
+          <div id="repos" class="repo-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
